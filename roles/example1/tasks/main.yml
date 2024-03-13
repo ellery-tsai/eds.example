@@ -1,0 +1,5 @@
+---
+# tasks file for example1
+- name: Display hello
+  ansible.builtin.debug:
+    msg: "Hello"
